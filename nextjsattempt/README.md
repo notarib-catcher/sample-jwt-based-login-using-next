@@ -29,4 +29,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Where do I look for the demo?
 
-The heart of this demo is in 3 files: `/pages/api/auth.js`, `/pages/_middleware.ts` and `/pages/index.ts`.
+The heart of this demo is in 3 files: `/pages/api/auth.js`, `/pages/_middleware.ts` and `/pages/login.js`.
+`/pages/index.js` is just a placeholder for what you're supposed to see when you log in. Nothing else.
