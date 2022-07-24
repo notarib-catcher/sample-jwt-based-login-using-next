@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .submit-btn-red-animated{
+        @apply self-center font-semibold bg-red-800 hover:bg-red-600 text-white px-8 py-2 mt-6 rounded-md active:px-6 active:py-1 active:mt-7 outline-none duration-200 active:outline-red-400 active:outline-2;
+    }
+
+    .submit-btn-cyan-animated{
+        @apply self-center font-semibold bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-2 mt-6 rounded-md active:px-6 active:py-1 active:mt-7 outline-none duration-200 active:outline-red-400 active:outline-2;
+    }
+
+    .submit-btn-green-animated{
+        @apply self-center font-semibold bg-green-800 hover:bg-green-600 text-white px-8 py-2 mt-6 rounded-md active:px-6 active:py-1 active:mt-7 outline-none duration-200 active:outline-red-400 active:outline-2;
+    }
+}
